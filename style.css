@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px 0px;
+    border: white solid 5px;
+    box-shadow: 0 0 50rem 0 black;
+
+}
+
+form h2 {
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,
+
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 25px;
+    outline: none;
+    background: transparent;
+    font-size: 20PX;
+    color: white;
+}
+::placeholder {
+    color: black;
+    font-size: 25px;
+}
+
+form button {
+    padding: 15px;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    border: white solid 2px;
+    outline: crimson solid 2px;
+    outline-style: double;
+    cursor: pointer;
+    width: 130px;
+    margin: 20px auto;
+    border-radius: 300px;
+}
+
+body {
+    background-image: url('bg_iocn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
